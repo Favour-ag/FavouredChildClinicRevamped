@@ -1,11 +1,3 @@
-/**
-* Template Name: Medilab
-* Updated: Jan 29 2024 with Bootstrap v5.3.2
-* Template URL: https://bootstrapmade.com/medilab-free-medical-bootstrap-theme/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -467,6 +459,16 @@ h6 {
   background-size: cover;
   margin-bottom: -200px;
 }
+.hero-bg-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(4, 52, 107, 0.3);
+  background-size: cover;
+  margin-bottom: -200px;
+}
 
 #hero .container {
   position: relative;
@@ -485,7 +487,7 @@ h6 {
 
 #hero h2 {
   /* color: #2c4964; */
-  color: rgb(255, 255, 255);
+  color: rgb(231, 234, 238);
   margin: 10px 0 0 0;
   font-size: 24px;
 }
